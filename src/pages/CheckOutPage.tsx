@@ -41,10 +41,6 @@ function CheckOutPage() {
       ))}
       {/* map */}
       <div className="TotalContainer">TOTAL: ${total}</div>
-      <div className="stripeContainer">
-        {" "}
-        <StripeButton price={total}></StripeButton>
-      </div>
 
       <div className="WarningContainer">
         {" "}
